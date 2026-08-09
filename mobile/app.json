@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Ramblbox",
+    "slug": "ramblbox",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Ramblbox records your rambles so they can be transcribed and structured into notes."
+      }
+    },
+    "android": {
+      "permissions": ["RECORD_AUDIO"]
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Ramblbox records your rambles so they can be transcribed and structured into notes."
+        }
+      ]
+    ]
+  }
+}
