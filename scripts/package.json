@@ -1,0 +1,15 @@
+{
+  "name": "ramblbox-scripts",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "corrections-report": "tsx corrections-report.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}
